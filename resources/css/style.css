@@ -1,0 +1,206 @@
+body {
+	background-color: #888;
+	color: #888;
+	font-family: cursive;
+	font-style: normal;
+	font-size: inherit;
+        background:url(../images/007.jpg) repeat;
+
+}
+
+#wrapper {
+	width: 80%;
+	height: 800px;
+	margin: 15px auto;
+	background-color: #212121;
+	border-radius: 25px;
+	box-shadow: 0px 0px 50px 5px #212121;
+}
+header {
+	width: 100%;
+	height: 150px;
+	border-radius: 25px 25px 0px 0px;
+	background-color: #cccccc;
+}
+header #banner img {
+	width: 100%;
+	height: 150px;
+}
+
+nav {
+	width: 100%;
+	height: 40px;
+    text-align: center;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+nav ul {
+    background-color: transparent;
+    margin: 0px auto;
+    list-style: none;
+    border-radius: 10px;
+    display: inline-table;
+    padding: 0px 10px;
+    position: relative;
+    /*box-shadow: 0px 0px 50px 20px #cccccc;*/
+}
+nav ul:after {
+	content: ""; 
+    clear: both;
+    display: block;
+}
+    nav ul li {
+        float: left;
+    }
+    nav ul li:hover {
+        background-color: #222;
+        -moz-transition: -moz-transform 0.1s linear;
+    }
+       
+nav ul li a {
+    display: block;
+    padding: 5px 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li:hover a{
+	background-color: #121212;
+}
+
+#lavalamp {
+    background: url(../images/lavalamp.png) no-repeat scroll 0 0 transparent;
+    height: 16px;
+    left: 65px;
+    position: absolute;
+    top: 0px;
+    width: 65px;
+
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+#lavalamp:hover {
+    -moz-transition-duration: 3000s;
+    -ms-transition-duration: 3000s;
+    -o-transition-duration: 3000s;
+    -webkit-transition-duration: 3000s;
+    transition-duration: 3000s;
+}
+
+nav li:nth-of-type(1):hover ~ #lavalamp {
+    left: 65px;
+}
+nav li:nth-of-type(2):hover ~ #lavalamp {
+    left: 205px;
+}
+nav li:nth-of-type(3):hover ~ #lavalamp {
+    left: 350px;
+}
+nav li:nth-of-type(4):hover ~ #lavalamp {
+    left: 520px;
+}
+nav li:nth-of-type(5):hover ~ #lavalamp {
+    left: 700px;
+}
+section {
+	float: left;
+	width: 100%;
+	height: 550px;
+        background:url(../images/03.jpg) repeat;
+}
+section aside {
+	float: left;
+	background:url(../images/04.jpg) repeat;
+	width: 25%;
+	height: 100%;
+}
+.login{
+    margin-top: 100px;
+    padding-left: 12.5%;
+    
+}
+section #content{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background:url(../images/03.jpg) repeat;
+}
+section div{
+    margin-top: 20px;
+}
+section #content #box1{
+    margin-top: 80px;
+    width: 200px;
+    height: 80px;
+    background-color: #cccccc;
+}
+section #content #box1:hover {
+    background-color: #0099ff;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+}
+section #content #box2{
+    float: left;
+    margin-left: 201px;
+    margin-top: -80px;
+    width: 200px;
+    height: 80px;
+    background-color: #cccccc;
+}
+section #content #box2:hover {
+    background-color: #0099ff;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+}
+section #content a{
+    text-decoration: none;
+    text-align: center;
+}
+section #content .r_form {
+    padding-left: 15px;
+    background-color: transparent;
+}
+section #content label {
+    padding: 2px;
+}
+section #content .r_form input {
+    padding:2px;
+}
+section #content table{
+    margin-top: 20px;
+    /*font-size:10pt;*/
+    width:100%;
+    position:relative;
+    left:-30px;
+    font-family: arial;
+    background-color: transparent;
+}
+
+th
+{
+    font-size:10pt;
+    color:black;
+    text-align:center;padding:2px;
+    background-color: whitesmoke;
+}
+
+td
+{
+    font-size:9pt;
+   text-align:left;padding:2px;
+    background-color: white;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	height: 60px;
+	background:url(../images/05.jpg) repeat;
+	border-radius: 0px 0px 25px 25px;
+}
+footer p {
+    text-align: center;
+}
